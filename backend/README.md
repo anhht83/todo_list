@@ -15,12 +15,12 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment.git
+git clone https://github.com/anhht83/fs_assignment_brix.git
 
 # Goto the cloned project folder, run command
 cd fs_assignment/backend
 
-# Run command to install packages dependencies.
+# Run command to install package dependencies.
 yarn
 ```
 
@@ -41,7 +41,7 @@ DB_PORT=3306
 # Run command to migrate/seed database
 yarn sequelize db:migrate
 ```
-**NOTE**: Sequelize support multiple RMDBs. You'll also have to manually install the driver for your database of choice:
+**NOTE**: Sequelize supports multiple RMDBs. You'll also have to install the driver for your database of choice manually:
 ```bash
 # One of the following:
 $ yarn add --save pg pg-hstore # Postgres
