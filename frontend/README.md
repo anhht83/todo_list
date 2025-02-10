@@ -12,7 +12,7 @@ ReactJs Boilerplate Using NexJs/TypeScript
 * next (^13.*)
 
 ## Install, Configure & Run
-Below mentioned are the steps to install, configure & run in your platform/distributions.
+Below mentioned are the steps to install, configure & run in your platform/distribution.
 
 ### Install
 ```bash
@@ -22,7 +22,7 @@ git clone https://github.com/anhht83/fs_assignment.git
 # Goto the cloned project folder, run command
 cd fs_assignment/frontend
 
-# Run command to install packages dependencies.
+# Run command to install package dependencies.
 yarn
 ```
 
