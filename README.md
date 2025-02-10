@@ -15,13 +15,13 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment.git
+git clone https://github.com/anhht83/fs_assignment_brix.git
 
 # Goto the cloned project folder, run command
 cd <root dir of project>
 
-# Run command to install packages dependencies.
-yarn steup
+# Run command to install package dependencies.
+yarn setup
 ```
 
 ### Configure 
@@ -38,10 +38,10 @@ DB_PORT=3306
 ```
 - Migrate database
 ```bash
-# Run command to migrate database
+# Run command to migrate the database
 yarn migrate
 ```
-**NOTE**: Sequelize support multiple RMDBs. You'll also have to manually install the driver for your database of choice:
+**NOTE**: Sequelize supports multiple RMDBs. You'll also have to manually install the driver for your database of choice:
 ```bash
 # One of the following:
 $ yarn add --save pg pg-hstore # Postgres
@@ -57,7 +57,7 @@ $ yarn add --save oracledb # Oracle Database
 # Run development from your root dir of the apps to run both frontend and backend app
 yarn dev
 ```
-After run successful, access the link below to check your installation http://localhost:3000, and API document http://localhost:3001/docs
+After running successful, access the link below to check your installation http://localhost:3000, and API document http://localhost:3001/docs
 
 
 ### Build code and deployment
