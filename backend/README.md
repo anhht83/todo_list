@@ -1,4 +1,4 @@
-# Backend: RESTful API
+# Todo List - Backend: RESTful API
 
 Express RESTful API Boilerplate Using TypeScript
 
@@ -15,10 +15,10 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment_brix.git
+git clone https://github.com/anhht83/todo_list.git
 
 # Goto the cloned project folder, run command
-cd fs_assignment/backend
+cd todo_list/backend
 
 # Run command to install package dependencies.
 yarn

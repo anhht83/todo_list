@@ -1,4 +1,4 @@
-# Frontend
+# Todo List - Frontend
 ReactJs Boilerplate Using NexJs/TypeScript
 
 ## Global Requisites
@@ -17,10 +17,10 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment.git
+git clone https://github.com/anhht83/todo_list.git
 
 # Goto the cloned project folder, run command
-cd fs_assignment/frontend
+cd todo_list/frontend
 
 # Run command to install package dependencies.
 yarn
